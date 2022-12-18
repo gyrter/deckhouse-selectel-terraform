@@ -86,11 +86,7 @@ variable "worker_taints" {
     value = string
     effect =string
   }))
-  default =[ {
-    effect = "NoExecute"
-    key = "dedicated.deckhouse.io"
-    value = "worker"
-  } ]
+  default =[ ]
 }
 
 variable "system_nodes_count" {
