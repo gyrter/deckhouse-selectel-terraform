@@ -90,7 +90,7 @@ variable "worker_taints" {
 }
 
 variable "system_nodes_count" {
-  default = 1
+  default = 2
 }
 
 variable "system_affinity_policy" {
