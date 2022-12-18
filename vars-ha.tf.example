@@ -178,7 +178,7 @@ variable "front_taints" {
 # bastion
 
 variable "is_create_bastion" {
-  default = false
+  default = true
 }
 
 variable "bastion_server_name" {
