@@ -1,0 +1,3 @@
+[submodule "terraform-examples"]
+	path = terraform-examples
+	url = git@github.com:selectel/terraform-examples.git
